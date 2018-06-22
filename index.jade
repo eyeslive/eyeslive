@@ -1,0 +1,479 @@
+doctype html
+html.no-js(lang='en')
+  head
+    // title
+    title 艾思媒體 Eyeslive
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width,initial-scale=1.0,maximum-scale=1')
+    meta(name='author', content='Eyeslive')
+    // description
+    meta(name='description', content='公司規模越做越大')
+    // keywords
+    meta(name='keywords', content='艾思媒體, Eyesive, 艾思媒體有限公司')
+    // favicon
+    link(rel='shortcut icon', href='img/logoicon1.png')
+    //link(rel='apple-touch-icon', href='images/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='images/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='images/apple-touch-icon-114x114.png')
+    // animation
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Noto+Sans")
+    link(rel='stylesheet', href='css/animate.css')
+    // bootstrap
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    // et line icon
+    link(rel='stylesheet', href='css/et-line-icons.css')
+    // font-awesome icon
+    link(rel='stylesheet', href='css/font-awesome.min.css')
+    // themify icon
+    link(rel='stylesheet', href='css/themify-icons.css')
+    // swiper carousel
+    link(rel='stylesheet', href='css/swiper.min.css')
+    // justified gallery
+    link(rel='stylesheet', href='css/justified-gallery.min.css')
+    // magnific popup
+    link(rel='stylesheet', href='css/magnific-popup.css')
+    // revolution slider
+    link(rel='stylesheet', type='text/css', href='revolution/css/settings.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='revolution/css/layers.css')
+    link(rel='stylesheet', type='text/css', href='revolution/css/navigation.css')
+    // bootsnav
+    link(rel='stylesheet', href='css/bootsnav.css')
+    // style
+    link(rel='stylesheet', href='css/style.css')
+    // responsive css
+    link(rel='stylesheet', href='css/responsive.css')
+    link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Quicksand")
+    //if IE
+      script(src='js/html5shiv.js')
+  body
+    .box-layout
+      // start header
+      header
+        // start navigation
+        nav.navbar.navbar-default.bootsnav.bg-transparent.navbar-scroll-top.header-light
+          .container.nav-header-container
+            .row
+              .col-md-2.col-xs-5
+                a.logo(href='index.html', title='Eyeslive')
+                  img.logo-dark.default(src='img/logo.svg', data-rjs='img/logo.svg', alt='Eyeslive')
+                  img.logo-light(src='logo_WHITE', data-rjs='images/logo-white@2x.png', alt='')
+              .col-md-7.col-xs-2.width-auto.pull-right.accordion-menu.xs-no-padding-right
+                button.navbar-toggle.collapsed.pull-right(type='button', data-toggle='collapse', data-target='#navbar-collapse-toggle-1')
+                  span.sr-only toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                #navbar-collapse-toggle-1.navbar-collapse.collapse.pull-right
+                  ul#accordion.nav.navbar-nav.navbar-left.no-margin.text-normal(data-in='fadeIn', data-out='fadeOut')
+                    // start menu item
+                    li.dropdown.simple-dropdown
+                      a(href='works.html') 服務項目
+                      i.fas.fa-angle-down.dropdown-toggle(data-toggle='dropdown', aria-hidden='true')
+                      // start sub menu
+                      //ul.dropdown-menu(role='menu')
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 腳本企劃
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 攝/錄影工程
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 視覺影像製作
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 網路串流工程
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 網路LIVE節目製播
+                    li.dropdown.simple-dropdown
+                      a(href='javascript:void(0);', title='Blog') 業界實例
+
+                      // end sub menu
+
+                    li.dropdown.simple-dropdown
+                      a(href='javascript:void(0);', title='Blog') 原創空間
+                      ul.dropdown-menu(role='menu')
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 空間介紹
+                        li.dropdown
+                          a.dropdown-toggle(data-toggle='dropdown', href='javascript:void(0);')
+                            | 攝影棚出租
+
+                    li.dropdown.simple-dropdown
+                      a(href='contact.html', title='Blog') 聯絡我們
+                      //i.fas.fa-angle-down.dropdown-toggle(data-toggle='dropdown', aria-hidden='true')
+              .col-md-2.col-xs-5.width-auto
+                .header-social-icon.xs-display-none
+                  a(href='https://www.facebook.com/EYESLIVE.TW/', title='Facebook', target='_blank')
+                    i.fab.fa-facebook-f(aria-hidden='true')
+                  a(href='https://www.instagram.com/eyeslive.tw/?hl=zh-tw', title='Instagram', target='_blank')
+                    b
+                      i.fab.fa-instagram
+                  //a(href='https://dribbble.com/', title='Dribbble', target='_blank')
+                    i.fas.fa-at
+                      // start sub menu
+    //手機區
+
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/slide1.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-white.font-weight-550.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 與您分享 「眼前的生活」
+                h6.font-weight-500.text-white.letter-spacing-3  We are Eyeslive.
+
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/line.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-black.font-weight-500.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 網路串流工程
+                h6.font-weight-600.text-black.letter-spacing-3 「網絡視界，沒有距離。」          
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/blue.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-white.font-weight-500.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 藍色生死戀
+                h6.font-weight-500.text-white.letter-spacing-3 「藍色是最溫暖的顏色：此生不再，亦難再續。」
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/computers.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-black.font-weight-500.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 網路LIVE節目製播
+                h6.font-weight-600.text-black.letter-spacing-3 「真實互動，拉近你我」
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/table.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-white.font-weight-500.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 視覺影像製作
+                h6.font-weight-500.text-white.letter-spacing-3 「天馬行空，由我創造。」
+    section.wow.fadeIn.no-padding.cover-background.color-code(data-color='1', style="background-image: url('img1/yellow.jpg');")
+      .container.full-screen.position-relative.hidden-sm.hidden-md.hidden-lg
+        .slider-typography.text-left
+          .slider-text-middle-main
+            .slider-text-middle.slider-text-middle
+              .col-lg-7.col-md-10.col-sm-10.center-col.text-center
+                h3.text-black.font-weight-500.letter-spacing-3.text-uppercase.margin-0px-bottom.xs-margin-0px-bottom.display-inline-block 攝/錄影工程
+                h6.font-weight-500.text-black.letter-spacing-3 「一眼瞬間，記錄永恆。」
+             
+
+    //手機區
+
+      // end header
+
+
+    section.wow.fadeIn.half-section.cover-background.no-padding.top-space.main.hidden-xs
+      .container-fluid.padding-0px-lr.xs-margin-0px.xs-padding-0px-lr
+        .swiper-full-screen.swiper-container.width-100
+          .swiper-wrapper
+            // start slider item
+            .swiper-slide.cover-background(style="background-image:url('img1/slide1.jpg')")
+              .container.position-relative.one-fourth-screen.xs-height-400px
+                .slider-typography.text-center
+                  .slider-text-middle-main
+                    .slider-text-middle
+                      .col-lg-8.col-md-6.col-sm-8.col-xs-12.center-col.slide-content
+                        .padding-50px-all.xs-padding-30px-all
+                          h4
+                            h3.text-white 與你分享「眼前的生活」
+                          //a.btn.btn-large.btn-transparent-white(href='l')  R e c r u i t i n g
+            // end slider item
+            // start slider item
+            .swiper-slide.cover-background(style="background-image:url('img1/slide2.jpg')")
+              .container.position-relative.one-fourth-screen.xs-height-400px
+                .slider-typography.text-center
+                  .slider-text-middle-main
+                    .slider-text-middle
+                      .col-lg-6.col-md-6.col-sm-8.col-xs-12.center-col.slide-content
+                        .padding-50px-all.xs-padding-30px-all 
+                          h4
+                            h3.text-white 原創內容招募中
+                          a.btn.btn-large.btn-transparent-white(href='')  R e c r u i t i n g
+            // end slider item
+  
+      
+      section.mission.wow.fadeIn
+        .container
+          .row.equalize.sm-equalize-auto
+            .col-md-1.col-sm-1
+            .col-md-4.col-sm-12.col-xs-4.display-table.sm-height-auto.sm-margin-40px-bottom.xs-margin-30px-bottom.wow.fadeIn
+              .display-table-cell.vertical-align-top.sm-text-center
+                P
+                h4.font-weight-600.margin-five-bottom.sm-margin-5px-bottom.width-100.letter-spacing-minus-3.sm-width-100 ✧*｡٩(ˊᗜˋ*)و✧*｡
+                
+                h5.text-uppercase.text-extra-dark-gray.width-75.display-block.no-margin-bottom.md-width-90.sm-width-100.xs-width-100 我們是艾思媒體
+            .col-md-7.col-sm-12.col-xs-8.display-table.wow.fadeIn(data-wow-delay='0.4s')
+              .display-table-cell.vertical-align-middle.sm-padding-ten-left.xs-no-padding-left.xs-text-center.sm-text-center
+                p.text-large.text-extra-dark-gray
+                  h5
+                    | 我們的使命是與您一起分享「眼前的生活」
+                  h6
+                   | Our mission is to share the “life in front of you” with you.
+    
+      // end about section
+      section.no-padding.wow.fadeIn.hidden-xs
+        .container-fluid.no-padding
+          .row.no-margin
+            .filter-content.overflow-hidden
+              ul.portfolio-grid.work-4col.hover-option2
+                li.grid-sizer
+                // start portfolio item
+                li.grid-item.wow.zoomIn
+                  a(href='single-project-page-02.html')
+                    figure
+                      .portfolio-img.bg-blue
+                        img(src='img1/blue.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 藍色生死戀
+                              p
+                              p.text-white.text-uppercase.text-large 「藍色是最溫暖的顏色：此生不再，亦難再續。」
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn(data-wow-delay='0.2s')
+                  a(href='single-project-page-03.html')
+                    figure
+                      .portfolio-img.bg-dark-green
+                        img(src='img1/table.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 視覺影像製作
+                              p
+                              p.text-white.text-uppercase.text-large 「天馬行空，由我創造。」
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn(data-wow-delay='0.4s')
+                  a(href='')
+                    figure
+                      .portfolio-img.bg-red
+                        img(src='img1/red.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 紅色高跟鞋
+                              p
+                              p.text-white.text-uppercase.text-large 「紅色是熱情，卻也是充滿脆弱的顏色。」
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn(data-wow-delay='0.6s')
+                  a(href='single-project-page-01.html')
+                    figure
+                      .portfolio-img.bg-brown
+                        img(src='img1/computers.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 網路LIVE節目製播
+                              p
+                              p.text-white.text-uppercase.text-large 「真實互動，拉近你我。」
+                // end portfolio item
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn(data-wow-delay='0.4s')
+                  a(href='single-project-page-04.html')
+                    figure
+                      .portfolio-img.bg-orange
+                        img(src='img1/grey.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 企劃/腳本
+                              p
+                              p.text-white.text-uppercase.text-large 「我們用心做企劃，展現原創新高度。」
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn(data-wow-delay='0.2s')
+                  a(href='single-project-page-03.html')
+                    figure
+                      .portfolio-img.bg-orange
+                        img(src='img1/line.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 網路串流工程
+                              p
+                              p.text-white.text-uppercase.text-large 「網絡視界，沒有距離。」
+                // end portfolio item
+                // start portfolio item
+                li.grid-item.wow.zoomIn
+                  a(href='single-project-page-02.html')
+                    figure
+                      .portfolio-img.bg-yellow
+                        img(src='img1/yellow.jpg', alt='')
+                      figcaption
+                        .portfolio-hover-main.text-center
+                          .portfolio-hover-box.vertical-align-middle
+                            .portfolio-hover-content.position-relative.last-paragraph-no-margin
+                              .bg-black.margin-25px-bottom
+                              span.line-height-normal.text-white.text-uppercase.margin-one-half-middle.text-extra-large 攝/錄影工程
+                              p
+                              p.text-white.text-uppercase.text-large 「一眼瞬間，記錄永恆。」
+                // end portfolio item 
+        
+        // FOOTER底爸 正常
+    footer.footer-strip.bg-extra-dark-gray.padding-30px-tb.xs-padding-30px-tb.hidden-xs
+      .container
+        .row.equalize.xs-equalize-auto
+          // start logo
+          .footerlogo.col-md-2.md-text-bottom.col-sm-3.col-xs-12.display-table.sm-text-center.m
+            .display-table-cell.vertical-align-bottom
+              a.logo(href='index.html')
+                img.footer-logo(src='img1/logo_bottom.svg', alt='')
+
+          // end logo
+          // start copyright
+          .copyright.col-md-.col-sm-6.col-xs-12.text-center.text-small.text-white.display-table.xs-margin-0px-bottom.sm-text-center
+            .display-table-cell.vertical-align-middle
+              | ©2018 Eyeslive Co  —  All rights reserved
+
+          // end copyright
+          // start social media
+          .social.col-md-3.col-sm-3.col-xs-12.display-table.sm-text-center
+            .display-table-cell.vertical-align-top
+              .social-icon-style-8.display-inline-block.vertical-align-top
+                ul.small-icon.no-margin-bottom
+                  li
+                    a.facebook.text-white(href='https://www.facebook.com/EYESLIVE.TW/', target='_blank')
+                      i.fab.fa-facebook-f(aria-hidden='true')
+                  li
+                    a.twitter.text-white(href='https://www.instagram.com/eyeslive.tw/?hl=zh-tw', target='_blank')
+                      b
+                        i.fab.fa-instagram
+                  li
+                    a.at.text-white(href='https://www.facebook.com/messages/t/EYESLIVE.TW', target='_blank')
+                      i.far.fa-comments
+                  li
+                    a.dribbble.text-white(href='mailto:nienchon@gmail.com', target='_blank')
+                      i.far.fa-envelope.no-margin-right(aria-hidden='true')
+          // 底爸FOOTER
+
+        // FOOTER底爸 手機
+    footer.footer-strip.bg-extra-dark-gray.padding-30px-tb.xs-padding-30px-tb.hidden-md.hidden-lg.hidden-sm
+      .container
+        .row.equalize.xs-equalize-auto
+          // start logo
+          .footerlogo.col-md-2.md-text-bottom.col-sm-3.col-xs-12.display-table.sm-text-center.m
+            .display-table-cell.vertical-align-bottom
+              a.logo(href='index.html')
+                img.footer-logo(src='img1/logo_bottom.svg', alt='')
+
+
+          // end copyright
+          // start social media
+          .social.col-md-3.col-sm-3.col-xs-12.display-table.sm-text-center
+            .display-table-cell.vertical-align-top
+              .social-icon-style-8.display-inline-block.vertical-align-top
+                ul.small-icon.no-margin-bottom
+                  li
+                    a.facebook.text-white(href='https://www.facebook.com/EYESLIVE.TW/', target='_blank')
+                      i.fab.fa-facebook-f(aria-hidden='true')
+                  li
+                    a.twitter.text-white(href='https://www.instagram.com/eyeslive.tw/?hl=zh-tw', target='_blank')
+                      b
+                        i.fab.fa-instagram
+                  li
+                    a.at.text-white(href='https://www.facebook.com/messages/t/EYESLIVE.TW', target='_blank')
+                      i.far.fa-comments
+                  li
+                    a.dribbble.text-white(href='mailto:nienchon@gmail.com', target='_blank')
+                      i.far.fa-envelope.no-margin-right(aria-hidden='true')
+
+          // end logo
+          // start copyright
+          .copyright.col-md-.col-sm-6.col-xs-12.text-center.text-small.text-white.display-table.xs-margin-0px-bottom.sm-text-center
+            .display-table-cell.vertical-align-middle
+              | ©2018 Eyeslive Co  —  All rights reserved
+
+          // 底爸FOOTER
+    // start scroll to top
+    a.scroll-top-arrow(href='javascript:void(05);')
+      i.ti-arrow-up
+    // end scroll to top
+    // javascript libraries
+    script(type='text/javascript', src='js/jquery.js')
+    script(type='text/javascript', src='js/modernizr.js')
+    script(type='text/javascript', src='js/bootstrap.min.js')
+    script(type='text/javascript', src='js/jquery.easing.1.3.js')
+    script(type='text/javascript', src='js/skrollr.min.js')
+    script(type='text/javascript', src='js/smooth-scroll.js')
+    script(type='text/javascript', src='js/jquery.appear.js')
+    // menu navigation
+    script(type='text/javascript', src='js/bootsnav.js')
+    script(type='text/javascript', src='js/jquery.nav.js')
+    // animation
+    script(type='text/javascript', src='js/wow.min.js')
+    // page scroll
+    script(type='text/javascript', src='js/page-scroll.js')
+    // swiper carousel
+    script(type='text/javascript', src='js/swiper.min.js')
+    // counter
+    script(type='text/javascript', src='js/jquery.count-to.js')
+    // parallax
+    script(type='text/javascript', src='js/jquery.stellar.js')
+    // magnific popup
+    script(type='text/javascript', src='js/jquery.magnific-popup.min.js')
+    // portfolio with shorting tab
+    script(type='text/javascript', src='js/isotope.pkgd.min.js')
+    // images loaded
+    script(type='text/javascript', src='js/imagesloaded.pkgd.min.js')
+    // pull menu
+    script(type='text/javascript', src='js/classie.js')
+    script(type='text/javascript', src='js/hamburger-menu.js')
+    // counter
+    script(type='text/javascript', src='js/counter.js')
+    // fit video
+    script(type='text/javascript', src='js/jquery.fitvids.js')
+    // equalize
+    script(type='text/javascript', src='js/equalize.min.js')
+    // skill bars
+    script(type='text/javascript', src='js/skill.bars.jquery.js')
+    // justified gallery
+    script(type='text/javascript', src='js/justified-gallery.min.js')
+    // pie chart
+    script(type='text/javascript', src='js/jquery.easypiechart.min.js')
+    // instagram
+    script(type='text/javascript', src='js/instafeed.min.js')
+    // retina
+    script(type='text/javascript', src='js/retina.min.js')
+    // revolution
+    script(type='text/javascript', src='revolution/js/jquery.themepunch.tools.min.js')
+    script(type='text/javascript', src='revolution/js/jquery.themepunch.revolution.min.js')
+    // revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading)
+    //
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    // setting
+    script(type='text/javascript', src='js/main.js')
