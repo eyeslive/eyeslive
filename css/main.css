@@ -47,7 +47,9 @@ section#contacticon {
   margin-bottom: 100px; }
 
 section#workitems {
-  margin-bottom: 50px; }
+  margin-bottom: 0px; }
+  section#workitems h5.live {
+    line-height: 30px; }
 
 section#quality {
   margin-top: 90px; }
