@@ -52,7 +52,8 @@ section#workitems {
     line-height: 30px; }
 
 section#quality {
-  margin-top: 90px; }
+  margin-top: 90px;
+  text-align: justify; }
 
 section#mobilework {
   margin-top: 50px; }
