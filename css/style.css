@@ -90,6 +90,7 @@ h5 {font-size:32px; line-height:40px}
 h6 {font-size:25px; line-height:30px}
 
 /* text size */
+.text-extra-small1 {font-size:9px; line-height:14px}
 .text-extra-small {font-size:11px; line-height:14px}
 .text-small {font-size:12px; line-height:20px}
 .text-medium {font-size:16px; line-height:23px}
