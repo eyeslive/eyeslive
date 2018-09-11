@@ -46,6 +46,11 @@ section.wow.fadeIn.no-padding {
 section#contacticon {
   margin-bottom: 100px; }
 
+section#officeitems {
+  margin-bottom: 0px; }
+  section#officeitems h5.live {
+    line-height: 30px; }
+
 section#workitems {
   margin-bottom: 15px; }
   section#workitems h5.live {
@@ -57,3 +62,6 @@ section#quality {
 
 section#mobilework {
   margin-top: 50px; }
+
+section#conatctimfo .imfo {
+  margin-bottom: 100px; }
